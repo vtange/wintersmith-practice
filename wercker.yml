@@ -37,3 +37,4 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GH_TOKEN
         basedir: build
+# Watch out, this code is YAML and cannot have any tabs.
