@@ -30,5 +30,5 @@ build:
     # A custom script step, name value is used in the UI
     # and the code value contains the command that get executed
     - script:
-		name: wintersmith build
+        name: wintersmith build
         code: ./node_modules/.bin/wintersmith build -o ./build
