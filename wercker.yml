@@ -34,6 +34,6 @@ build:
         code: ./node_modules/.bin/wintersmith build -o ./build
 deploy:
   steps:
-    - vtange/gh-pages:
+    - gh-pages:
         token: $GH_TOKEN
         basedir: build
