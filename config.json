@@ -1,12 +1,13 @@
 {
   "locals": {
-    "url": "http://vtange.github.io/arch-design/",
+    "url": "http://vtange.github.io/wintersmith-practice/",
     "name": "The Wintersmith's blog",
     "owner": "Someone",
     "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
     "./plugins/paginator.coffee"
+    "./node_modules/wintersmith-handlebars/wintersmith-handlebars.coffee"
   ],
   "require": {
     "moment": "moment",
