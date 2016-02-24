@@ -3,7 +3,8 @@
     "moment": "2.3.x",
     "typogr": "0.5.x",
     "underscore": "1.4.x",
-    "wintersmith": "^2.2.5"
+    "wintersmith": "^2.2.5",
+    "wintersmith-handlebars": "0.0.6"
   },
   "private": "true"
 }
